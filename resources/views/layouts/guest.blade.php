@@ -17,23 +17,23 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="{{ route('guest.index') }}">
+                <a class="navbar-brand z-2" href="{{ route('guest.index') }}">
                     <!-- <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" class="logo"> -->
                     <img src="{{ asset('assets/images/Logo2.svg') }}" alt="Logo" class="logo ">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler z-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-                    <div class="navbar-nav col-6 menu">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                        <a class="nav-link active" href="#">Games</a>
+                    <div class="navbar-nav col-6 menu z-2">
+                        <a class="nav-link active" href="{{ route('guest.about') }}">About</a>
+                        <a class="nav-link active" href="{{ route('guest.games') }}">Games</a>
                         <a class="nav-link active" href="#">Contact</a>
                         <a class="nav-link active" href="#">Community</a>
                     </div>
                     <div class="col-4 ">
                             <form class="d-flex" role="search">
-                                <input class="form-control searh" type="search" placeholder="Search" aria-label="Search">
+                                <input class="form-control searh" type="search" id="search" name="search" placeholder="Search" aria-label="Search">
                                 <div class="searhc-icon"><i class="fa-solid fa-magnifying-glass text-white icons"></i></div>
                             </form>
                         </div>
