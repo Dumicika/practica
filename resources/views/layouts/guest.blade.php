@@ -30,13 +30,18 @@
                         <a class="nav-link active" href="#">Games</a>
                         <a class="nav-link active" href="#">Contact</a>
                         <a class="nav-link active" href="#">Community</a>
+                        
                     </div>
                     <div class="col-4 ">
-                            <form class="d-flex" role="search">
+                        <form class="d-flex" role="search">
                                 <input class="form-control searh" type="search" placeholder="Search" aria-label="Search">
                                 <div class="searhc-icon"><i class="fa-solid fa-magnifying-glass text-white icons"></i></div>
-                            </form>
-                        </div>
+                        </form>          
+                    </div>
+                    <div class="navbar-nav menu" >
+                        <a href="/login" class="nav-link active "><i class="fa-solid fa-right-to-bracket" style="padding-right: 5px"></i>Log In</a>
+                        <a href="/register" class="nav-link active"><i class="fa-solid fa-user" style="padding-right: 5px"></i>Register</a>
+                    </div>    
                 </div>
             </div>
         </nav>
@@ -46,7 +51,8 @@
 
     <footer class="mt-5 p-5 text-white d-flex align-center justify-content-center bg-card">
         <p class="my-5">
-            &copy; {{ \Carbon\Carbon::now()->year }} Toate drepturile rezervate
+            &copy; {{ \Carbon\Carbon::now()->year }} 
+            Elaborat de Marius
         </p>
     </footer>
 </body>

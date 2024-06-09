@@ -57,6 +57,14 @@ auctionsSwiperElements.forEach(btn => {
 
 const hearts = document.querySelectorAll(".icons .fa-heart");
 
+// let favorite_buttons = document.querySelectorAll(".favorite");
+//   favorite_buttons.forEach(function(button) {
+//     button.addEventListener("click", function() {
+//       console.log("Like");
+//       let heartIcon = event.currentTarget.querySelector("i");
+//       heartIcon.classList.toggle("like");
+//     });
+//   });
 hearts.forEach(heart => {
     heart.addEventListener('click', () => {
         const likeElement = heart.nextElementSibling;

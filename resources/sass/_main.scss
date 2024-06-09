@@ -8,13 +8,7 @@
     background: #030812;
 }
 .btn-bg-secondary{
-    background: #3C485D;
-}
-.btn-radius{
-    border-radius: 24px;
-}
-.radius{
-    border-radius: 24px;
+    background: #4a3188;
 }
 .text-site-gradient{
     color: #FD1C68!important;
@@ -29,7 +23,7 @@
     font-size: 55px;
 }
 .bg-card{
-    background: rgba(53, 57, 65, 0.41)!important;
+    background: #07132B!important;
 }
 .icons .fa-heart{
     cursor: pointer;
@@ -60,3 +54,13 @@
         font-size: 40px;
     }
 }
+//star
+#favorite_btn i{
+    font-size: 25px;
+    color: #535252;
+    
+  }
+  
+  #favorite_btn i.like{
+    color: #f74c3e;
+  }
