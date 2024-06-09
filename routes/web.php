@@ -15,3 +15,4 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::prefix('admin')->group(function () {
     Route::resource('collections', CollectionController::class)->middleware('auth');
 });
+

@@ -1,15 +1,9 @@
-/* body{
-    /* background-image: url(../images/backgroun_top.jpeg); *
-    background-size: 100%;
-} */
-
 .logo{
     width: 170px;
 }
 
 .menu {
     font-size: 15px;
-    /* margin-left: 50px; */
 }
 
 .searh {
@@ -44,7 +38,6 @@
     left: -200px;
     right: 0;
     bottom: 0;
-    /* background-image: url(../images/backgroun_top.jpeg);  */
     background-image: url(../images/bg.jpg); 
     box-shadow: 0px -650px 450px -400px #030812 inset;
     background-size: 125%;
@@ -70,7 +63,6 @@
     overflow: hidden;
     margin-top: 15px;
     border: rgba(255, 255, 255, 0.664) 1px solid;
-    /* opacity: 0.7; */
     box-shadow: #030812 0px 10px 10px 0px;
     position: relative;
     text-align: center;
@@ -112,7 +104,6 @@
     border-radius: 10px;
     padding: 60px 20px;
     color: white;
-    /* font-weight: bold; */
     text-align: center;
     position: relative;
     justify-content: center;
@@ -120,13 +111,9 @@
 
 .info i{
     font-size: 50px;
-    /* color: #e31e25b6; */
-    /* box-shadow: 0 0px 10px 0 #e31e25; */
-    /* background-color: #e31e25; */
 }
 
 .info .circl{
-    /* background: rgb(63,94,251); */
     background: radial-gradient(circle, rgba(63,94,251,0) 0%, rgba(227, 30, 37, 0.616) 200%);
     box-shadow: 0 -15px 20px  #e31e25;
     border-radius: 100%;
@@ -157,7 +144,6 @@
     left: 0;
     right: 0;
     bottom: -150px;
-    /* background-image: url(../images/backgroun_top.jpeg);  */
     background-image: url(../images/bg-2-V.jpg); 
     box-shadow: -50px 0px 105px 160px #030812 inset;
     background-size: 120%;
@@ -186,8 +172,6 @@
     .top_content{
         display: block;
         position: relative;
-        /* left: 50%;
-        transform: translateX(50%); */
     }
 
     .bg_image::before{
@@ -197,8 +181,6 @@
         left: 0%;
         right: 0;
         bottom: 0;
-        /* height: 100%; */
-        /* background-image: url(../images/backgroun_top.jpeg);  */
         background-image: url(../images/bg-phone.png); 
         box-shadow: 0px -750px 450px -400px #030812 inset;
         background-size: 120%;
@@ -212,7 +194,6 @@
         margin-top: 20px;
         width: 100%;
         left: 50%;
-        /* transform: translateX(50%); */
         justify-content: center;
         display: flex;
     }
